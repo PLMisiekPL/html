@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+
+    <title>Plik_3</title>
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        main {
+            width: 700px;
+            margin: auto;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        img {
+            width: 700px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <hr />
+        <h2>Coś w rodzaju menu nawigacyjnego</h2>
+        <nav>
+            <ul>
+                <a href="./../../index.html" title="index">index</a>
+                <a href="./../odsylacze_1/plik_1.html" title="plik_1">plik_1</a>
+                <a href="./../odsylacze_1/plik_2.html" title="plik_2">plik_2</a>
+                <a href="./../odsylacze_2/plik_3.html" title="plik_3">plik_3</a>
+                <a href="./../odsylacze_2/plik_4.html" title="plik_4">plik_4</a>
+                <!-- <a href="./../odsylacze_mapa/plik_mapa.html" title="plik_mapa">plik_mapa</a> -->
+            </ul>
+        </nav>
+        <hr />
+        <h1>Mapa</h1>
+    </header>
+    <main>
+        <img src="../../grafiki/mapapolski.jpg" alt="mapa polski" usemap="#nazwa_mapy">
+        <map id="nazwa_mapy" name="nazwa_mapy">
+            <area shape="rect" coords="współrzędne" href="#mazowsze" alt="województwo" />
+            <area shape="rect" coords="współrzędne" href="#chiny" alt="województwo" />
+            
+        </map>
+    </main>
+    <footer>
+        Autor: Kacper Ślusarczyk
+    </footer>
+</body>
+
+</html>
