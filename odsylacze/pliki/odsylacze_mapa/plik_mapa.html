@@ -25,9 +25,6 @@
             text-align: center;
         }
 
-        img {
-            width: 700px;
-        }
     </style>
 </head>
 
@@ -49,12 +46,37 @@
         <h1>Mapa</h1>
     </header>
     <main>
-        <img src="../../grafiki/mapapolski.jpg" alt="mapa polski" usemap="#nazwa_mapy">
-        <map id="nazwa_mapy" name="nazwa_mapy">
-            <area shape="rect" coords="współrzędne" href="#mazowsze" alt="województwo" />
-            <area shape="rect" coords="współrzędne" href="#chiny" alt="województwo" />
-            
+        <img src="../../grafiki/mapapolski.jpg" usemap="#mapapolski">
+
+        <map name="mapapolski">
+            <area target="_blank" alt="województwo" title="mazowsze"
+                href="https://google.com/search?q=województwa+polski" coords="69,174,61,357,278,246,262,108,159,144"
+                shape="poly">
+            <area target="_blank" alt="województwo" title="mazowsze"
+                href="https://google.com/search?q=województwa+polski" coords="333,352,490,429,537,292,380,212"
+                shape="poly">
+            <area target="_blank" alt="województwo" title="mazowsze"
+                href="https://google.com/search?q=województwa+polski"
+                coords="531,108,501,222,566,285,726,249,812,175,802,113" shape="poly">
+            <area target="_blank" alt="województwo" title="mazowsze"
+                href="https://google.com/search?q=województwa+polski"
+                coords="563,314,533,432,633,502,620,593,745,625,745,490,837,461,858,427,715,266" shape="poly">
+            <area target="_blank" alt="województwo" title="mazowsze"
+                href="https://google.com/search?q=województwa+polski"
+                coords="614,611,555,683,566,711,606,761,707,727,746,652" shape="poly">
+            <area target="_blank" alt="województwo" title="mazowsze"
+                href="https://google.com/search?q=województwa+polski"
+                coords="228,530,110,576,85,627,206,673,214,746,234,772,276,759,266,721,289,686,311,648,330,617,349,581,340,552,279,565"
+                shape="poly">
         </map>
+
+<img src="../../grafiki/ksztalty.jpg" usemap="#image-map">
+
+<map name="image-map">
+    <area target="_blank" alt="kształty" title="rect" href="./../odsylacze_1/plik_1.html" coords="91,51,351,218" shape="rect">
+    <area target="_blank" alt="kształty" title="poly" href="./../odsylacze_1/plik_2.html#odsylacz2" coords="331,423,469,203,604,423" shape="poly">
+    <area target="_blank" alt="kształty" title="kształt" href="https://ksztalty.pl/" coords="677,223,87" shape="circle">
+</map>
     </main>
     <footer>
         Autor: Kacper Ślusarczyk
